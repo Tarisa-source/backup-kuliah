@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-10 09:13:30 PM"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTAtMTA7MDk6MDA6MjcgUE07MjUzNw=="/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTAtMTA7MDk6MTM6MzAgUE07MTsyNjQz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sisi1" type="Integer" array="False" size=""/>
+            <declare name="sisi2" type="Integer" array="False" size=""/>
+            <declare name="sisi3" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan sisi 1 : &quot;" newline="True"/>
+            <input variable="sisi1"/>
+            <output expression="&quot;Masukan sisi 2 : &quot;" newline="True"/>
+            <input variable="sisi2"/>
+            <output expression="&quot;Masukan sisi 3 : &quot;" newline="True"/>
+            <input variable="sisi3"/>
+            <if expression="sisi1 = sisi2 = sisi3">
+                <then>
+                    <output expression="&quot;Segitiga sama sisi &quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="sisi1==sisi2 &amp;&amp; sisi2==sisi3 &amp;&amp; sisi3==sisi1">
+                        <then>
+                            <output expression="&quot;Segitiga sama kaki &quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Segitiga sembarang&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

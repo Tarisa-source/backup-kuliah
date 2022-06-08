@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-09-25 12:58:18 PM"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMDktMjU7MDg6MTg6MDQgQU07MjUzOQ=="/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMDktMjU7MTI6NTg6MTggUE07MTsyNjY2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <declare name="B" type="Integer" array="False" size=""/>
+            <declare name="C" type="Integer" array="False" size=""/>
+            <declare name="D" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan bilangan untuk B = &quot;" newline="True"/>
+            <input variable="B"/>
+            <output expression="&quot;Masukan bilangan untuk C = &quot;" newline="True"/>
+            <input variable="C"/>
+            <output expression="&quot;Masukan bilangan untuk D = &quot;" newline="True"/>
+            <input variable="D"/>
+            <assign variable="A" expression="B+C*D"/>
+            <output expression="&quot;Hasilnya adalah &quot; &amp;A" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

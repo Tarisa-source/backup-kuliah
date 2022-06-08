@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-09-19 08:41:09 PM"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMDktMTk7MDU6NTE6NTkgUE07MjU2MQ=="/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMDktMTk7MDg6NDE6MDkgUE07MTsyNjY2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="SPA" type="Integer" array="False" size=""/>
+            <declare name="Angsuran1" type="Integer" array="False" size=""/>
+            <declare name="Angsuran2" type="Integer" array="False" size=""/>
+            <declare name="Angsuran3" type="Integer" array="False" size=""/>
+            <declare name="Angsuran4" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan SPA : &quot;" newline="True"/>
+            <input variable="SPA"/>
+            <assign variable="Angsuran1" expression="0.4*SPA"/>
+            <assign variable="Angsuran2" expression="0.3*SPA"/>
+            <assign variable="Angsuran3" expression="0.2*SPA"/>
+            <assign variable="Angsuran4" expression="0.1*SPA"/>
+            <output expression="&quot;Angsuran 1 : &quot;&amp;Angsuran1" newline="True"/>
+            <output expression="&quot;Angsuran 2 : &quot;&amp;Angsuran2" newline="True"/>
+            <output expression="&quot;Angsuran 3 : &quot;&amp;Angsuran3" newline="True"/>
+            <output expression="&quot;Angsuran 4 : &quot;&amp;Angsuran4" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

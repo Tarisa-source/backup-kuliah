@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-09-17 05:39:23 PM"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMDktMTc7MDU6MjA6NTAgUE07MjU0Ng=="/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMDktMTc7MDU6Mzk6MjMgUE07MTsyNjY0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NIM" type="Integer" array="False" size=""/>
+            <declare name="Nama" type="String" array="False" size=""/>
+            <declare name="Jurusan" type="String" array="False" size=""/>
+            <output expression="&quot;Masukan NIM =&quot;" newline="False"/>
+            <input variable="NIM"/>
+            <output expression="&quot;Masukan Nama = &quot;" newline="False"/>
+            <input variable="Nama"/>
+            <output expression="&quot;Masukan Jurusan = &quot;" newline="False"/>
+            <input variable="Jurusan"/>
+            <output expression="&quot;NIM = &quot;&amp;NIM" newline="True"/>
+            <output expression="&quot;Nama = &quot;&amp;Nama" newline="True"/>
+            <output expression="&quot;Juurusan = &quot;&amp;Jurusan" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

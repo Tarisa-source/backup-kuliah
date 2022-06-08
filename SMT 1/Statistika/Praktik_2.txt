@@ -1,0 +1,11 @@
+Nama	IPK	Sks
+Ivan	2.4	40
+Mely	2.8	42
+Rosa	3.5	46
+Setia	2.7	42
+Mayone	2.9	40
+Lady	3.3	42
+Anita	3.1	44
+Wanto	2.9	42
+Heri	2.2	40
+Danu	2.0	38

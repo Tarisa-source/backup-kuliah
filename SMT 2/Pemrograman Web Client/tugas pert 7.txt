@@ -1,0 +1,12 @@
+Tugas tengah semester
+
+1. menggunakan materi pert 1- 6.
+2. buatlah berdasar kreasi Anda sendiri, dilarang mengambil dari website. jika ketahuan nilainya 0
+3. jika memodifikasi dari teman, cuma diganti warna, diganti judul, dll. nilai 0
+4. Tujuan dari tugas adalah mengasah ketrampilan Anda, bukan sekedar nilai.
+5. Buatlah sebuah website berdasar kreasi Anda, topik bebas.
+6. semua file html, php, css, foto ditaruh di dalam satu folder , yaitu nim Anda. Sehingga memudahkan saya koreksi. 
+7. pengumpulan : 
+   a. Folder di Zip/rar
+   b. jika melebihi batas kirim ukuran file 10MB. Maka ditaruh di google drive dengan hak akses public. sehingga saya bisa download
+   c. Sertakan screen shoot hasil dalam format pdf

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-10 03:00:53 PM"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTAtMTA7MDI6MDY6MDcgUE07MjUzNA=="/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTAtMTA7MDM6MDA6NTMgUE07MjsyNjM5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="bil1" type="Integer" array="False" size=""/>
+            <declare name="bil2" type="Integer" array="False" size=""/>
+            <declare name="bil3" type="Integer" array="False" size=""/>
+            <declare name="terbesar" type="Integer" array="False" size=""/>
+            <declare name="terkecil" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan bilangan 1 : &quot;" newline="True"/>
+            <input variable="bil1"/>
+            <output expression="&quot;Masukan bilangan 2 : &quot;" newline="True"/>
+            <input variable="bil2"/>
+            <output expression="&quot;Masukan bilangan 3 : &quot;" newline="True"/>
+            <input variable="bil3"/>
+            <if expression="bil1&gt;bil2 &amp;&amp; bil1&gt;3">
+                <then>
+                    <output expression="&quot;Terkecil =&quot; &amp;bil1" newline="True"/>
+                </then>
+                <else>
+                    <if expression="">
+                        <then/>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

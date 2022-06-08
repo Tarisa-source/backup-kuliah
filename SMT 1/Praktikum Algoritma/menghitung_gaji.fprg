@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-03 09:33:18 AM"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTAtMDM7MDk6MzA6MzEgQU07MjUyMg=="/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTAtMDM7MDk6MzM6MTggQU07MTsyNjM4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="pokok" type="Integer" array="False" size=""/>
+            <declare name="kinerja" type="Integer" array="False" size=""/>
+            <declare name="lain" type="Integer" array="False" size=""/>
+            <declare name="gaji" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan gaji : &quot;" newline="True"/>
+            <input variable="pokok"/>
+            <assign variable="kinerja" expression="0.2 * pokok"/>
+            <assign variable="lain" expression="0.1*kinerja"/>
+            <assign variable="gaji" expression="pokok+kinerja+lain"/>
+            <output expression="&quot;Gaji anda adalah &quot;&amp;gaji" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

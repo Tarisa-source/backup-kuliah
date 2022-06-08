@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-09-22 11:27:50 AM"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMDktMjI7MTE6MTE6NDggQU07MjUzMQ=="/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMDktMjI7MTE6Mjc6NTAgQU07MTsyNjM5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="teori" type="Integer" array="False" size=""/>
+            <declare name="praktik" type="Integer" array="False" size=""/>
+            <declare name="biayaKuliah" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan SKS Teori = &quot;" newline="True"/>
+            <input variable="teori"/>
+            <output expression="&quot;Masukan SKS Praktikum = &quot;" newline="True"/>
+            <input variable="praktik"/>
+            <assign variable="biayaKuliah" expression="(75000 * teori) + (120000 * praktik)"/>
+            <output expression="&quot;Biaya kuliah Semester ini = &quot;&amp;biayaKuliah" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

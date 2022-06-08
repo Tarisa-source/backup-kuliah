@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-12-01 12:57:01 MALAM"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTItMDE7MTI6NTE6MzcgTUFMQU07Mjc0Mw=="/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTItMDE7MTI6NTc6MDEgTUFMQU07MTsyODQ4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <assign variable="x" expression="1"/>
+            <output expression="&quot;Menampilkan bilangan ganjil dari 1-10&quot;" newline="True"/>
+            <while expression="x&lt;=10">
+                <output expression="x" newline="True"/>
+                <assign variable="x" expression="x+2"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

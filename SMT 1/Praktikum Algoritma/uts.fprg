@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-26 08:12:50 PAGI"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTAtMjY7MDg6MDI6MDkgUEFHSTsyNjc3"/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTAtMjY7MDg6MTI6NTAgUEFHSTszOzI3ODQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nilai" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan Nilai : &quot;" newline="True"/>
+            <input variable="nilai"/>
+            <if expression="nilai &gt; 80 &amp;&amp; nilai &lt;= 100">
+                <then>
+                    <output expression="&quot;Lulus&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="nilai&gt;=60 &amp;&amp; nilai&lt;80">
+                        <then>
+                            <output expression="&quot;Remidi&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="nilai &lt; 60">
+                                <then>
+                                    <output expression="&quot;Tidak lulus &quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;Nilai yang anda masukan salah &quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

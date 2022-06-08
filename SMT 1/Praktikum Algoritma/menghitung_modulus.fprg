@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-09-25 08:09:02 AM"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMDktMjU7MDc6NTg6MDAgQU07MjUzOA=="/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMDktMjU7MDg6MDk6MDIgQU07MTsyNjQ1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Bill1" type="Integer" array="False" size=""/>
+            <declare name="Bill2" type="Integer" array="False" size=""/>
+            <declare name="Hasil" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan Bilangan ke-1 = &quot;" newline="True"/>
+            <input variable="Bill1"/>
+            <output expression="&quot;Masukan Bilangan ke-2 = &quot;" newline="True"/>
+            <input variable="Bill2"/>
+            <assign variable="Hasil" expression="Bill1 %  Bill2"/>
+            <output expression="Hasil" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

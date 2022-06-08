@@ -1,0 +1,16 @@
+
+Boxplot( ~ nilai, data=p5_praktik2, id=list(method="y"))
+editDataset(p5_praktik2)
+editDataset(p5_praktik2)
+Boxplot( ~ nilai, data=p5_praktik2, id=list(method="y"))
+Boxplot( ~ nilai, data=p5_praktik2, id=list(method="y"))
+Boxplot( ~ nilai, data=p5_praktik2, id=list(method="y"))
+editDataset(p5_praktik2)
+Boxplot( ~ nilai, data=p5_praktik2, id=list(method="y"))
+editDataset(p5_praktik2)
+Boxplot(nilai~UTS_UAS, data=p5_praktik2, id=list(method="y"))
+Boxplot(nilai~UTS_UAS, data=p5_praktik2, id=list(method="y"))
+Boxplot(nilai~UTS_UAS, data=p5_praktik2, id=list(method="y"))
+editDataset(p5_praktik1_UTS)
+editDataset(p5_praktik1_UTS)
+

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-19 10:40:44 PM"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTAtMTk7MTA6MjU6MTggUE07MjU0NQ=="/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTAtMTk7MTA6NDA6NDQgUE07MTsyNjQ5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="belanja" type="Integer" array="False" size=""/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <declare name="d" type="Integer" array="False" size=""/>
+            <declare name="e" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan total bayar : &quot;" newline="True"/>
+            <input variable="belanja"/>
+            <if expression="belanja &gt;500000">
+                <then>
+                    <assign variable="a" expression="belanja * 0.25"/>
+                    <output expression="a" newline="True"/>
+                </then>
+                <else>
+                    <if expression="belanja &gt;300000">
+                        <then>
+                            <assign variable="b" expression="belanja * 0.2"/>
+                            <output expression="b" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="belanja &gt; 200000">
+                                <then>
+                                    <assign variable="c" expression="belanja * 0.1"/>
+                                    <output expression="c" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="belanja &gt; 100000">
+                                        <then>
+                                            <assign variable="d" expression="belanja * 0.05"/>
+                                            <output expression="d" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;Tidak dapat diskon&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-19 10:25:16 PM"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTAtMTk7MTA6MDY6NTUgUE07MjU0NQ=="/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTAtMTk7MTA6MjU6MTYgUE07MTsyNjUx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="proses" type="String" array="False" size=""/>
+            <declare name="penjumlahan" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <declare name="d" type="Integer" array="False" size=""/>
+            <declare name="perkalian" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan pilihan penjumlahan/perkalian &quot;" newline="True"/>
+            <input variable="proses"/>
+            <if expression="proses=&quot;penjumlahan&quot;">
+                <then>
+                    <output expression="&quot;Penjumlahan 2 bilangan &quot;" newline="True"/>
+                    <output expression="&quot;Masukan bilangan pertama : &quot;" newline="True"/>
+                    <input variable="c"/>
+                    <output expression="&quot;Msukan bilangan ke dua &quot;" newline="True"/>
+                    <input variable="d"/>
+                    <assign variable="penjumlahan" expression="c+d"/>
+                    <output expression="penjumlahan" newline="True"/>
+                </then>
+                <else>
+                    <if expression="proses = &quot;perkalian&quot;">
+                        <then>
+                            <output expression="&quot;Perkalian 2 bilangan &quot;" newline="True"/>
+                            <output expression="&quot;Masukan bilangan pertama : &quot;" newline="True"/>
+                            <input variable="c"/>
+                            <output expression="&quot;Masukan bilangan ke dua : &quot;" newline="True"/>
+                            <input variable="d"/>
+                            <assign variable="perkalian" expression="c*d"/>
+                            <output expression="perkalian" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Kode yang anda masukan salah&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

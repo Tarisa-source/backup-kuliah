@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-09-17 06:37:20 PM"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMDktMTc7MDU6NDQ6NDEgUE07MjU1Mg=="/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMDktMTc7MDY6Mzc6MjAgUE07MjsyNjYx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NIM" type="Integer" array="False" size=""/>
+            <declare name="Nama" type="String" array="False" size=""/>
+            <declare name="Jurusan" type="String" array="False" size=""/>
+            <declare name="Alamat" type="String" array="False" size=""/>
+            <declare name="Nomor" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan NIM = &quot;" newline="True"/>
+            <input variable="NIM"/>
+            <output expression="&quot;Masukan Nama = &quot;" newline="True"/>
+            <input variable="Nama"/>
+            <output expression="&quot;Masukan Jurusan = &quot;" newline="True"/>
+            <input variable="Jurusan"/>
+            <output expression="&quot;Masukan Alamat = &quot;" newline="True"/>
+            <input variable="Alamat"/>
+            <output expression="&quot;Masukan No.hp = &quot;" newline="True"/>
+            <input variable="Nomor"/>
+            <output expression="&quot;NIM = &quot;&amp;NIM" newline="True"/>
+            <output expression="&quot;Nama = &quot;&amp;Nama" newline="False"/>
+            <output expression="&quot;Jurusan = &quot;&amp;Jurusan" newline="True"/>
+            <output expression="&quot;Alamat = &quot;&amp;Alamat" newline="True"/>
+            <output expression="&quot;No.hp = &quot;&amp;Nomor" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

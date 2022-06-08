@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-12-25 08:11:54 PAGI"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTItMjU7MDg6MDE6MzEgUEFHSTsyNjcy"/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTItMjU7MDg6MTE6NTQgUEFHSTsxOzI3ODY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <declare name="d" type="Integer" array="False" size=""/>
+            <declare name="e" type="Integer" array="False" size=""/>
+            <declare name="total" type="Real" array="False" size=""/>
+            <output expression="&quot;Menghitung rata-rata 5 bilangan &quot;" newline="True"/>
+            <output expression="&quot;Masukan angka ke-1 : &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Masukan angka ke-2 : &quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Masukan angka ke-3 : &quot;" newline="True"/>
+            <input variable="c"/>
+            <output expression="&quot;Masukan angka ke-4 : &quot;" newline="True"/>
+            <input variable="d"/>
+            <output expression="&quot;Masukan angka ke-5 : &quot;" newline="True"/>
+            <input variable="e"/>
+            <assign variable="total" expression="(a+b+c+d+e)/5"/>
+            <output expression="&quot;Rata-rata 5 buah bilangan tersebut : &quot;&amp;total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

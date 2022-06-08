@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-09-22 09:11:37 PM"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMDktMjI7MDg6NDg6NTkgUE07MjU2NA=="/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMDktMjI7MDk6MTE6MzcgUE07MzsyNjYx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Bulan" type="Integer" array="False" size=""/>
+            <declare name="Bayar" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan berapa bulan ngekos = &quot;" newline="True"/>
+            <input variable="Bulan"/>
+            <assign variable="Bulan" expression="Bulan - 5"/>
+            <assign variable="Bayar" expression="(5 * 250000) + (Bulan * 200000)"/>
+            <output expression="&quot;Total Bayar = &quot; &amp;Bayar" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

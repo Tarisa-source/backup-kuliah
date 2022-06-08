@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-10 02:06:04 PM"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTAtMTA7MDE6MTc6MTUgUE07MjUzNA=="/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTAtMTA7MDI6MDY6MDQgUE07MTsyNjM5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Usia antara 0 - 25&quot;" newline="True"/>
+            <declare name="usia" type="Integer" array="False" size=""/>
+            <assign variable="usia" expression="20"/>
+            <output expression="&quot;Usia = &quot;&amp;usia" newline="True"/>
+            <if expression="usia&lt;=5">
+                <then>
+                    <output expression="&quot;Balita&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="usia&gt;5&amp;&amp;usia&lt;=11">
+                        <then>
+                            <output expression="&quot;Kanak - kanak&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Remaja&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

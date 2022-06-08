@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-27 11:09:11 PAGI"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjEtMDUtMjc7MTE6MDY6MjggUEFHSTsyNjgy"/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjEtMDUtMjc7MTE6MDk6MTEgUEFHSTsxOzI3ODU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="X" type="Integer" array="False" size=""/>
+            <declare name="Y" type="Integer" array="False" size=""/>
+            <declare name="hasil" type="Integer" array="False" size=""/>
+        </body>
+    </function>
+</flowgorithm>

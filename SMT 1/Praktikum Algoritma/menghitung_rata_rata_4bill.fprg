@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-09-22 09:35:29 PM"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMDktMjI7MDk6MTE6MzkgUE07MjU1Mw=="/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMDktMjI7MDk6MzU6MjkgUE07MTsyNjY2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="BILL1" type="Integer" array="False" size=""/>
+            <declare name="BILL2" type="Integer" array="False" size=""/>
+            <declare name="BILL3" type="Integer" array="False" size=""/>
+            <declare name="BILL4" type="Integer" array="False" size=""/>
+            <declare name="Rata" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan angka ke-1 = &quot;" newline="True"/>
+            <input variable="BILL1"/>
+            <output expression="&quot;Masukan angka ke-2 = &quot;" newline="True"/>
+            <input variable="BILL2"/>
+            <output expression="&quot;Masukan angka ke-3&quot;" newline="True"/>
+            <input variable="BILL3"/>
+            <output expression="&quot;Masukan angka ke-4 = &quot;" newline="True"/>
+            <input variable="BILL4"/>
+            <assign variable="Rata" expression="(BILL1 + BILL2 + BILL3 + BILL4)/4"/>
+            <output expression="&quot;Rata- rata 4 bilangan adalah = &quot; &amp;Rata" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

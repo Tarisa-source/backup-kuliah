@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-20 02:43:44 PM"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTAtMjA7MDI6MjQ6NTAgUE07MjUzMw=="/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTAtMjA7MDI6NDM6NDQgUE07MzsyNjQ3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="angkatan" type="Integer" array="False" size=""/>
+            <declare name="teori" type="Integer" array="False" size=""/>
+            <declare name="praktik" type="Integer" array="False" size=""/>
+            <declare name="praktikum" type="Integer" array="False" size=""/>
+            <declare name="total" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan angatan tahun berapa anda : &quot;" newline="True"/>
+            <input variable="angkatan"/>
+            <if expression="angkatan &lt;= 2013 &amp;&amp; angkatan &gt;= 2005">
+                <then>
+                    <output expression="&quot;Masukan berapa sks teori (50.000/sks): &quot;" newline="True"/>
+                    <input variable="teori"/>
+                    <output expression="&quot;Masukan berapa sks_variable praktik (75.000/sks):&quot;" newline="True"/>
+                    <input variable="praktik"/>
+                    <output expression="&quot;Masukan berapa sks_variable praktikum (100.000/sks) : &quot;" newline="True"/>
+                    <input variable="praktikum"/>
+                    <assign variable="total" expression="(teori * 50000)+(praktik * 75000)+(praktikum * 100000)"/>
+                    <output expression="&quot;Total biaya sks variable : Rp &quot;&amp;total" newline="True"/>
+                </then>
+                <else>
+                    <if expression="angkatan &gt; 2013">
+                        <then>
+                            <output expression="&quot;Masuka total sks teori (75.000/sks): &quot;" newline="True"/>
+                            <input variable="teori"/>
+                            <output expression="&quot;Masukan total sks praktik (100.000/sks):&quot;" newline="True"/>
+                            <input variable="praktik"/>
+                            <output expression="&quot;Masukan total sks praktikum (125.000/sks): &quot;" newline="True"/>
+                            <input variable="praktikum"/>
+                            <assign variable="total" expression="(teori * 75000)+(praktik * 100000)+(praktikum * 125000)"/>
+                            <output expression="&quot;Total biaya sks variable : &quot;&amp;total" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Angkatan yang anda masukan tidak tersedia&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

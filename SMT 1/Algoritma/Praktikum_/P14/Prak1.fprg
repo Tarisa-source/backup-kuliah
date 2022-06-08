@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-12-25 07:59:20 PAGI"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTItMjU7MDc6Mjg6MDUgUEFHSTsyNjgx"/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTItMjU7MDc6NTk6MjAgUEFHSTsyOzI3OTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="R1" type="Real" array="False" size=""/>
+            <declare name="R2" type="Real" array="False" size=""/>
+            <declare name="R3" type="Real" array="False" size=""/>
+            <declare name="total" type="Real" array="False" size=""/>
+            <output expression="&quot;Masukan R1 : &quot;" newline="True"/>
+            <input variable="R1"/>
+            <output expression="&quot;Masukan R2 : &quot;" newline="True"/>
+            <input variable="R2"/>
+            <output expression="&quot;Masukan R3 : &quot;" newline="True"/>
+            <input variable="R3"/>
+            <assign variable="total" expression="1/(1/R1+1/R2+1/R3)"/>
+            <output expression="&quot;Total nilai R : &quot;&amp;total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

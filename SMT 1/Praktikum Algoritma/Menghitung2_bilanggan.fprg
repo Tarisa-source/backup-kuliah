@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-09-25 01:13:27 PM"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMDktMjU7MTI6NTg6MjAgUE07MjU1MQ=="/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMDktMjU7MDE6MTM6MjcgUE07MTsyNjU1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Bill1" type="Integer" array="False" size=""/>
+            <declare name="Bill2" type="Integer" array="False" size=""/>
+            <declare name="Kali" type="Integer" array="False" size=""/>
+            <declare name="Kurang" type="Integer" array="False" size=""/>
+            <declare name="Bagi" type="Integer" array="False" size=""/>
+            <declare name="Tambah" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan bilangan ke-1 =&quot;" newline="True"/>
+            <input variable="Bill1"/>
+            <output expression="&quot;Masukan billangan ke-2 = &quot;" newline="True"/>
+            <input variable="Bill2"/>
+            <assign variable="Kali" expression="Bill1 * Bill2"/>
+            <assign variable="Kurang" expression="Bill1- Bill2"/>
+            <assign variable="Bagi" expression="Bill1 / Bill2"/>
+            <assign variable="Tambah" expression="Bill1 + Bill2"/>
+            <output expression="&quot;Penjumlahan dari 2 bilangan tersebut adalah &quot; &amp;Tambah" newline="True"/>
+            <output expression="&quot;Pengurangan dari 2 bilangan tersebut adalah &quot; &amp;Kurang" newline="True"/>
+            <output expression="&quot;Perkalian dari 2 bilangan tersebut adalah&quot; &amp;Bagi" newline="True"/>
+            <output expression="&quot;Pembagian dari 2 bilangan tersebut adalah&quot; &amp;Kali" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

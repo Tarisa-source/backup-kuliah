@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-16 11:45:31 AM"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTAtMTY7MTA6NTc6MTkgQU07MjUzMw=="/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTAtMTY7MTE6NDU6MzEgQU07NTsyNjM3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kode" type="Integer" array="False" size=""/>
+            <declare name="persegi" type="Integer" array="False" size=""/>
+            <declare name="p" type="Integer" array="False" size=""/>
+            <declare name="l" type="Integer" array="False" size=""/>
+            <declare name="r" type="Integer" array="False" size=""/>
+            <declare name="lingkaran" type="Real" array="False" size=""/>
+            <output expression="&quot;Masukan kode bangun datar : &quot;" newline="True"/>
+            <input variable="kode"/>
+            <if expression="kode ==  1">
+                <then>
+                    <output expression="&quot;Menghitung luas persegi panjang&quot;" newline="True"/>
+                    <output expression="&quot;Masukan panjang  : &quot;" newline="True"/>
+                    <input variable="s"/>
+                    <output expression="&quot;Masukan lebar : &quot;" newline="True"/>
+                    <input variable="l"/>
+                    <assign variable="persegi" expression="p*l"/>
+                    <output expression="&quot;Luas persegi panjang adalah &quot;&amp;persegi" newline="True"/>
+                </then>
+                <else>
+                    <if expression="kode == 2">
+                        <then>
+                            <output expression="&quot;Menghitung luas lingkaran &quot;" newline="True"/>
+                            <output expression="&quot;Masukan jari- jari lingkaran : &quot;" newline="True"/>
+                            <input variable="r"/>
+                            <assign variable="lingkaran" expression="3.14 * r * r"/>
+                            <output expression="&quot;Luas lingkaran adalah &quot;&amp;lingkaran" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Kode yang anda masukan salah &quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

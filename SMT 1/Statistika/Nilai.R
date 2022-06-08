@@ -1,0 +1,4 @@
+
+Boxplot( ~ Nilai, data=UTS, id=list(method="y"))
+Boxplot( ~ Nilai, data=UTS, id=list(method="y"))
+

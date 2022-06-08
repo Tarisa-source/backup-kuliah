@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-20 02:13:36 PM"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTAtMjA7MDI6MDI6NDcgUE07MjUzNQ=="/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTAtMjA7MDI6MTM6MzYgUE07MTsyNjQz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="pretest" type="Integer" array="False" size=""/>
+            <declare name="praktik" type="Integer" array="False" size=""/>
+            <declare name="laporan" type="Integer" array="False" size=""/>
+            <declare name="responsi" type="Integer" array="False" size=""/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <declare name="d" type="Integer" array="False" size=""/>
+            <declare name="total" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan nilai pretest : &quot;" newline="True"/>
+            <input variable="pretest"/>
+            <output expression="&quot;Masukan nilaii praktik : &quot;" newline="True"/>
+            <input variable="praktik"/>
+            <output expression="&quot;Masukan nilai laporan :&quot;" newline="True"/>
+            <input variable="laporan"/>
+            <output expression="&quot;Masukan nilai responsi : &quot;" newline="True"/>
+            <input variable="responsi"/>
+            <assign variable="a" expression="pretest * 0.2"/>
+            <assign variable="b" expression="praktik * 0.2"/>
+            <assign variable="c" expression="laporan * 0.3"/>
+            <assign variable="d" expression="responsi * 0.3"/>
+            <assign variable="total" expression="a+b+c+d"/>
+            <output expression="&quot;Total nilai : &quot;&amp;total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

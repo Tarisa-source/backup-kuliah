@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-14 07:30:08 PAGI"/>
+        <attribute name="created" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTEtMTQ7MDc6MDg6MzggUEFHSTsyNjgy"/>
+        <attribute name="edited" value="aHA7REVTS1RPUC1VOThHSTlHOzIwMjAtMTEtMTQ7MDc6MzA6MDggUEFHSTsyOzI3ODM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="deret" type="Integer" array="False" size=""/>
+            <declare name="deretbaru" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="1"/>
+            <assign variable="deret" expression="1"/>
+            <assign variable="deretbaru" expression="1"/>
+            <output expression="&quot;Masukan jumlah deret yang anda inginkan : &quot;" newline="True"/>
+            <input variable="n"/>
+            <while expression="a&lt;=n">
+                <output expression="deretbaru" newline="True"/>
+                <assign variable="deret" expression="deret + 2"/>
+                <assign variable="deretbaru" expression="deretbaru + deret"/>
+                <assign variable="a" expression="a+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
